@@ -1,0 +1,37 @@
+{
+  "name": "digital-form-builder-test-runner",
+  "version": "0.0.1",
+  "description": "Selenium webdriver based e2e test runner for digital form builder applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard",
+    "format": "standard --fix",
+    "test": "npm run lint",
+    "debug": "node --nolazy --inspect-brk=5858 node_modules/.bin/lab --verbose index.js",
+    "auto": "lab --verbose index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DEFRA/digital-form-builder-test-runner"
+  },
+  "keywords": [
+    "selenium",
+    "digital-form-builder",
+    "govuk-frontend",
+    "govuk design system"
+  ],
+  "author": "defra",
+  "license": "ISC",
+  "dependencies": {
+    "bossy": "4.0.1",
+    "chromedriver": "2.41.0",
+    "code": "5.2.0",
+    "geckodriver": "1.12.2",
+    "lab": "15.5.0",
+    "selenium-webdriver": "4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "standard": "11.0.1"
+  }
+}
