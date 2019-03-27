@@ -21,8 +21,8 @@
     "govuk-frontend",
     "govuk design system"
   ],
-  "author": "defra",
-  "license": "ISC",
+  "author": "Department for Environment, Food and Rural Affairs <https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs>.",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "bossy": "4.0.1",
     "chromedriver": "2.41.0",
